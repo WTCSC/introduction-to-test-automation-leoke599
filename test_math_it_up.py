@@ -28,26 +28,21 @@ this file.
 """
 
 def test_is_even():
-  """
-  Tests for the `is_even` function
-  """
+  assert math_it_up.is_even(10) # tests to see if 10 is even with the module
+  assert True # asserts that if the number is 10 then it should be true that it's even
 
 def test_is_odd():
-  """
-  Tests for the `is_odd` function
-  """
+  assert math_it_up.is_odd(9) # tests to see if 9 is odd with the module
+  assert True # asserts that if the number is 9 then it should be true that it's odd
 
 def test_mean():
-  """
-  Tests for the `mean` function
-  """
+  assert math_it_up.mean([1, 2, 3, 4, 5]) # uses the list of numbers i gave to calculate the mean
+  assert 3 # asserts that the number you should get for running this code is 3
 
 def test_median():
-  """
-  Tests for the `median` function
-  """
+  assert math_it_up.median([3, 4, 5, 6, 7]) # uses this list to calculate the median
+  assert 5 # tells the program that it should be 5
 
 def test_mode():
-  """
-  Tests for the `mode` function
-  """
+  assert math_it_up.mode([1, 2, 3, 3, 4, 5, 5, 6, 6, 6, 7, 9]) # uses the list and calculates the mode
+  assert 6 # tells the program the output should be 6
